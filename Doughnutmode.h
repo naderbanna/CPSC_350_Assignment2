@@ -18,6 +18,7 @@ class Doughnutmode{
     std::string file_array[125];
     std::string curr_grid[14][14];
     std::string next_grid[14][14];
+    std::string cell_grid[3][3];
     int row;
     int column;
     int r;

@@ -37,7 +37,7 @@ int main(int argc, char** argv){
       Doughnutmode *test = new Doughnutmode(inputFile);
 
     }if(boundary == "3"){
-      cout << "Doughnut Mode Output" << endl << "___________________" << endl;
+      cout << "Mirror Mode Output" << endl << "___________________" << endl;
       Mirrormode *test = new Mirrormode(inputFile);
     }
   }
