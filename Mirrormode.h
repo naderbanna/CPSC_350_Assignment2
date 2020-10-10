@@ -14,7 +14,8 @@ class Mirrormode{
   private:
     std::string iFile;
     std::string gridData;
-    std::string random_array[14][14];
+    std::string cell_grid[3][3];
+    std::string random_array[125];
     std::string file_array[125];
     std::string curr_grid[14][14];
     std::string next_grid[14][14];
@@ -22,5 +23,10 @@ class Mirrormode{
     int column;
     int r;
     int c;
+    int q;
+    int t;
     int worldCount = 1;
+    double popD;
+    int randNum;
+    float randPop;
 };
